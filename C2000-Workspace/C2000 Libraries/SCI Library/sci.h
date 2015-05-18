@@ -1,3 +1,5 @@
+#ifndef SCI_H
+#define SCI_H
 
 /*
  * In/out pin pairs should be in the same system (A or B).
@@ -22,3 +24,5 @@ signed char recieveString(char, char*);
 
 //untested
 void EnableSciInterrupts(char);
+
+#endif

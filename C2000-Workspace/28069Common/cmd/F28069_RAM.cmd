@@ -79,7 +79,7 @@ PAGE 0 :
 
    BEGIN       : origin = 0x000000, length = 0x000002
    RAMM0       : origin = 0x000050, length = 0x0003B0
-   RAML0_L3    : origin = 0x008000, length = 0x002000	 /* RAML0-3 combined for size of .text */
+   RAML0_L3    : origin = 0x008000, length = 0x012000	 /* RAML0-3 combined for size of .text */
    RESET       : origin = 0x3FFFC0, length = 0x000002
    FPUTABLES   : origin = 0x3FD860, length = 0x0006A0	 /* FPU Tables in Boot ROM */
    IQTABLES    : origin = 0x3FDF00, length = 0x000B50    /* IQ Math Tables in Boot ROM */

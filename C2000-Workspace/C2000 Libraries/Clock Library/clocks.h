@@ -1,3 +1,5 @@
+#ifndef CLOCKS_H
+#define CLOCKS_H
 
 /*
  * FCLKS are in MHz
@@ -17,6 +19,9 @@ typedef enum {
     ONEHUNDREDSIXTY = 33,   ONEHUNDREDSEVENTY = 34,	ONEHUNDREDEIGHTY = 35
 } FCLKS;
 
+void serviceWatchog();
 void SysClkInit(FCLKS);
 void TimerInit(float32);
 float32 getfclk(void);
+
+#endif

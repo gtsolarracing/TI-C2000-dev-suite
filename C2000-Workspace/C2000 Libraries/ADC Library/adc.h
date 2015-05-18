@@ -4,9 +4,8 @@
  *
  * I went a little ham with the enums. Sorry not sorry.
  */
-
-//#include "interrupts.h"
-
+#ifndef ADC_H
+#define ADC_H
 /**
  * Used to set the ADC module clock as a fraction
  * of the system clock.
@@ -27,7 +26,7 @@ typedef enum {
 	SOC12 = 12,	SOC13 = 13,	SOC14 = 14,
 	SOC15 = 15
 } SOC;
-
+#endif
 /**
  * Specify the channel (pin) to which an soc is
  * connected. Depends on the pin you use as input.

@@ -1,3 +1,5 @@
+#ifndef GPIO_H_
+#define GPIO_H_
 
 //initialization
 void GpioInputsInit(Uint8[], Uint8);	//verified
@@ -25,6 +27,8 @@ Uint16 GpioGetData(Uint8);				//verified
 //pulling up and floating inputs (all are pulled up by default)
 void GpioFloatAll(void);				//verified
 void GpioFloatPins(Uint8[], Uint8);		//verified
+
+#endif
 void GpioFloatPin(Uint8);				//verified
 
 void GpioPullUpAll(void);				//verified

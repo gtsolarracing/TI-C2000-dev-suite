@@ -94,3 +94,13 @@ void TimerInit(float32 ftmr) {
 float32 getfclk() {
 	return xfclk;
 }
+
+/**
+ * Services the watchdog
+ */
+void serviceWatchog(){
+    EALLOW;
+    SysCtrlRegs.WDKEY = 0x55;
+    SysCtrlRegs.WDKEY = 0xAA;
+    EDIS;
+}

@@ -3,7 +3,6 @@
 	<name>ADC Library</name>
 	<comment></comment>
 	<projects>
-		<project>28069Common</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

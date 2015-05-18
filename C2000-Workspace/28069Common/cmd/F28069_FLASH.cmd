@@ -127,18 +127,19 @@ SECTIONS
    .cio             	: > RAML3,   PAGE = 1
    .sysmem          	: > RAML3,   PAGE = 1
    codestart           : > BEGIN,      PAGE = 0
-/*   ramfuncs            : LOAD = FLASHD,
+   ramfuncs            : LOAD = FLASHD,
                          RUN = RAML0,
                          LOAD_START(_RamfuncsLoadStart),
                          LOAD_END(_RamfuncsLoadEnd),
                          RUN_START(_RamfuncsRunStart),
                          PAGE = 0
-                         */
+
    secureRamFuncs	   : LOAD = FLASHD, PAGE = 0
  						 RUN = RAML0, PAGE = 0
  						 LOAD_START(_secureRamFuncs_loadstart),
    						 LOAD_SIZE(_secureRamFuncs_loadsize),
- 						 RUN_START(_secureRamFuncs_runstart)
+ 						 RUN_START(_secureRamFuncs_runstart),
+ 						 PAGE = 0
    csmpasswds          : > CSM_PWL_P0, PAGE = 0
    csm_rsvd            : > CSM_RSVD,   PAGE = 0
 

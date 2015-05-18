@@ -5,8 +5,8 @@
  * a complete list. The code required to set up an interrupt from
  * each of these sources is kept inside cases in interrupts.c
  */
-#ifndef INTRPT_DEFINED//encased in this thing so that it plays
-#define INTRPT_DEFINED//nicely with ADC Library without dependency
+#ifndef INTRPT_DEFINED
+#define INTRPT_DEFINED
 typedef enum {
     TINT0,		ADCINT1,	ADCINT2,
     ADCINT3,	ADCINT4,	ADCINT5,

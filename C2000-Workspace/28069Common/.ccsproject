@@ -3,7 +3,7 @@
 <projectOptions>
 	<deviceVariant value="TMS320C28XX.TMS320F28069"/>
 	<deviceFamily value="C2000"/>
-	<codegenToolVersion value="6.4.1"/>
+	<codegenToolVersion value="6.2.7"/>
 	<isElfFormat value="false"/>
 	<createSlaveProjects value=""/>
 	<templateProperties value="id=com.ti.common.project.core.emptyProjectWithMainTemplate,"/>
