@@ -1,2 +1,2 @@
 # TI-C2000-dev-suite
-Open Source set of libraries and workspace setup to make starting with C2000 dev much less painful — Edit
+Open Source set of libraries and workspace setup to make starting with C2000 dev much less painful. The included project structure and set up took us a good year to hone in on when started to work with the C2000 line of MCUs, so they should be helpful to teams starting out with them. See the WiKi for an overview of how these files are meant to be used. Some files and datasheets from TI are included on here for convenience. 
